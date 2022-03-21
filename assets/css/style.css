@@ -193,20 +193,89 @@
 @media screen and (max-width: 768px) {
     
     .my-pic {
-        max-width: 100%;
+        max-width: 50%;
+    }
+
+    .bio {
+        max-width: 50%;
     }
     
     .work {
         flex-direction: column;
-        max-width: 100%;
+        max-width: 50%;
     }
     
     .contact {
         flex-direction: column;
-        max-width: 100%;
+        max-width: 50%;
     }
 
     .proj1 {
-        max-width: 100%;
+        max-width: 50%;
     }
+    .lower {
+        max-width:50%;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .my-pic {
+        max-width: 50%;
+    }
+
+    .bio {
+        max-width: 50%;
+    }
+    
+    .work {
+        flex-direction: column;
+        max-width: 50%;
+    }
+    
+    .contact {
+        flex-direction: column;
+        max-width: 50%;
+    }
+
+    .proj1 {
+        max-width: 50%;
+    }
+
+    .lower {
+        max-width:50%;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .my-pic {
+        max-width: 50%;
+    }
+
+    .bio {
+        max-width: 50%;
+    }
+    
+    .work {
+        flex-direction: column;
+        max-width: 50%;
+    }
+    
+    .contact {
+        flex-direction: column;
+        max-width: 50%;
+    }
+
+    .proj1 {
+        max-width: 50%;
+    }
+
+    .lower {
+        max-width:100%;
+        flex-direction: column;
+    }
+    
 }
