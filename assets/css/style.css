@@ -2,36 +2,47 @@
     box-sizing: border-box;
 
   }
+  :root {
+      --sgreen: #2e8b57;
+      --cgrey: #8da7be;
+      --rblack: #272838;
+      --mmoss: #d4c685;
+      --mmint: #b5fed9;
+  }
+  body {
+      background-color: var(--rblack);
+      color:var(--mmint);
+  }
 
   header {
       justify-content: space-between;
   }
-
+  
   header h1 {
-      color: white;
+      color: var(--rblack);
       font-size: 2rem;
       display: flex;
-      border: 2px solid blue;
+      border: 2px solid var(--sgreen);
       padding: 5px;
-      background-color: blue;
+      background-color: var(--sgreen);
   }
 
   nav {
       display: flex;
-      background-color: purple;
+      background-color: var(---cgrey);
   }
 
   nav a{
       font-size: 1.5rem;
       padding: 5px 15px;
-      color:white;
+      color: var(--mmint);
       text-align: center;
       text-decoration: none;
   }
 
   .hero-image {
     background-image: url("../../assets/images/pexels-antonio-batinić-4164418.jpg");
-    background-color: #9b9898;
+    background-color: var(--rblack);
     height: 380px;
     background-position: center;
     background-repeat: no-repeat;
@@ -45,7 +56,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: var(--mmint);
     font-size: 3rem;
     padding-top: 50px;
   }
@@ -59,7 +70,7 @@
 
   h3{
       font-size: 3rem;
-      border-bottom: 3px solid green;
+      border-bottom: 3px solid var(--mmoss);
       max-width: fit-content;
   }
 
@@ -97,7 +108,7 @@
       display: flex;
       flex-wrap: wrap;
       font-size:3rem;
-      border-bottom: 3px solid green;
+      border-bottom: 3px solid var(--mmoss);
       margin-right: 10px;
   }
 
@@ -123,7 +134,7 @@
     position: absolute;
     left: 445px;
     top: 300px;
-    color: red;
+    color: var(--mmoss);
     font-size: 2.2rem;
     background-color: rgba(0, 0, 0, 0.384);
     display: flex;
@@ -154,7 +165,7 @@
     display: flex;
     flex-wrap: wrap;
     font-size:3rem;
-    border-bottom: 3px solid green;
+    border-bottom: 3px solid var(--mmoss);
     margin-right: 10px;
   }
 
@@ -167,6 +178,7 @@
 
 
   ul li {
+      color:var(--mmint)9;
       margin-top:8px;
       justify-content: center;
       text-align:center;
@@ -174,6 +186,10 @@
       list-style-type: none;
       text-decoration: none;
       
+  }
+
+  ul li a {
+       color:var(--mmint);
   }
    
   h6 {
