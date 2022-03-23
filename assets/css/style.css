@@ -114,7 +114,6 @@
 
   .proj1{
       position: relative;
-      width:50%;
       text-align: center;
       justify-content: center;
       
@@ -126,6 +125,7 @@
   }
 
   .text-block {
+    text-align: center;
     position: absolute;
     left: 445px;
     top: 300px;
@@ -191,61 +191,119 @@
       text-align: center;
       font-size: 1.4rem;
   }
+
 @media screen and (max-width: 768px) {
     
     .my-pic {
-        max-width: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-block {
+        max-width: fit-content;
+        flex-direction: column;
     }
 
     .bio {
-        max-width: 50%;
+        max-width: 100%;
     }
     
     .work {
         flex-direction: column;
-        max-width: 50%;
+        max-width: 100%;
     }
     
     .contact {
         flex-direction: column;
-        max-width: 50%;
+        max-width: 100%;
     }
 
     .proj1 {
-        max-width: 50%;
+        max-width: 100%;
+        height:auto;
     }
+
+    #img1 {
+        max-width:100%;
+        height:auto;
+    }
+
     .lower {
-        max-width:50%;
+        max-width:100%;
         flex-direction: column;
     }
 
 }
-
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 680px) {
     .my-pic {
-        max-width: 50%;
+        max-width: 80%;
+        height: auto;
     }
 
+
     .bio {
-        max-width: 50%;
+        max-width: 100%;
     }
     
     .work {
         flex-direction: column;
-        max-width: 50%;
+        max-width: 100%;
     }
     
     .contact {
         flex-direction: column;
-        max-width: 50%;
+        max-width: 100%;
     }
 
     .proj1 {
-        max-width: 50%;
+        max-width: 100%;
+        height:auto;
+    }
+
+    #img1 {
+        max-width:100%;
+        height:auto;
     }
 
     .lower {
-        max-width:50%;
+        max-width:100%;
+        flex-direction: column;
+    }
+    
+}
+@media screen and (max-width: 480px) {
+    .my-pic {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .bio {
+        max-width: 100%;
+    }
+    
+    .work {
+        flex-direction: column;
+        max-width: 100%;
+    }
+    
+    .contact {
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .proj1 {
+        max-width: 100%;
+        height:auto;
+    }
+
+    #img1 {
+        max-width:100%;
+        height:auto;
+    }
+
+    .lower {
+        max-width:100%;
         flex-direction: column;
     }
 
@@ -253,25 +311,32 @@
 
 @media screen and (max-width: 320px) {
     .my-pic {
-        max-width: 50%;
+        max-width: 100%;
+        height: auto;
     }
 
     .bio {
-        max-width: 50%;
+        max-width: 100%;
     }
     
     .work {
         flex-direction: column;
-        max-width: 50%;
+        max-width: 100%;
     }
     
     .contact {
         flex-direction: column;
-        max-width: 50%;
+        max-width: 100%;
     }
 
     .proj1 {
-        max-width: 50%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #img1 {
+        max-width:100%;
+        height:auto;
     }
 
     .lower {
